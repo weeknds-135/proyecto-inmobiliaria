@@ -1,0 +1,10 @@
+# Ocultar la base de datos local y respaldos SQL si los guardas aquí
+*.sql
+
+# Ignorar las fotos reales que subas al servidor para que no pesen en GitHub
+uploads/*
+!uploads/.gitkeep
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
